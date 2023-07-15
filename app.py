@@ -17,7 +17,7 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-local_css("D:\WEB_WORK\style\style.css")
+local_css("style\style.css")
 
 # --------  Header --------
 with st.container():
@@ -32,8 +32,8 @@ with st.container():
 lottie_coding = "https://lottie.host/94f323a1-3630-47fe-af39-6a30253b98a0/hpuNpXT5UY.json"
 lottie_discord = "https://lottie.host/cfbe235e-1118-43e3-9f1e-bddc5bb921dd/jwNq6sQlpY.json"
 lottie_insta = "https://lottie.host/9a8dff9f-e399-47a5-b13d-667f4d2c3b44/L7q6zN1N6m.json"
-img_book = Image.open("D:\WEB_WORK\images\CPP.png")
-img_book2 = Image.open("D:\WEB_WORK\images\DAuP.png")
+img_book = Image.open("images\CPP.png")
+img_book2 = Image.open("images\DAuP.png")
 
 
 # -------- What I Do --------
