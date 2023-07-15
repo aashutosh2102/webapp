@@ -23,7 +23,7 @@ local_css("style/style.css")
 with st.container():
     st.subheader("Hey there :wave:")
     st.title("Simply, A person who wants to make a difference")
-    st.write("I am here to share my knowledge about all the stuffs I had gone through such as books, games, anime, manga, etc.")
+    st.write("I am here to share my knowledge about all the stuffs I have gone through such as books, games, anime, manga, etc.")
 
 
 # -------- LOAD ASSETS --------
